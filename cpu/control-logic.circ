@@ -359,6 +359,7 @@
     <comp lib="0" loc="(1610,1250)" name="Tunnel">
       <a name="label" val="OP7"/>
     </comp>
+    <comp lib="0" loc="(1720,1780)" name="Constant"/>
     <comp lib="0" loc="(1730,1000)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="OP4"/>
@@ -460,11 +461,10 @@
       <a name="facing" val="east"/>
       <a name="label" val="OP1"/>
     </comp>
-    <comp lib="0" loc="(1730,1780)" name="Tunnel">
+    <comp lib="0" loc="(1730,1810)" name="Tunnel">
       <a name="facing" val="east"/>
-      <a name="label" val="OP2"/>
+      <a name="label" val="OP3"/>
     </comp>
-    <comp lib="0" loc="(1730,1810)" name="Constant"/>
     <comp lib="0" loc="(1730,1840)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="OP4"/>
@@ -1249,7 +1249,7 @@
 80a4 81a4 80c4 80e4 8200 8200 8200 8204
 8224 8244 8284 82a4 83a4 82c4 82e4 9210
 9210 9210 2e04 2e04 2604 2604 2e04 2e04
-c0c c0c 1010
+b204 b3e4 c204 8608 505 707
 </a>
       <a name="dataWidth" val="16"/>
     </comp>
@@ -1409,6 +1409,7 @@ c0c c0c 1010
     <wire from="(1580,1190)" to="(1610,1190)"/>
     <wire from="(1580,1220)" to="(1610,1220)"/>
     <wire from="(1580,1250)" to="(1610,1250)"/>
+    <wire from="(1720,1780)" to="(1770,1780)"/>
     <wire from="(1730,1000)" to="(1750,1000)"/>
     <wire from="(1730,1030)" to="(1760,1030)"/>
     <wire from="(1730,1060)" to="(1770,1060)"/>
@@ -1435,7 +1436,6 @@ c0c c0c 1010
     <wire from="(1730,1690)" to="(1770,1690)"/>
     <wire from="(1730,1720)" to="(1780,1720)"/>
     <wire from="(1730,1750)" to="(1780,1750)"/>
-    <wire from="(1730,1780)" to="(1770,1780)"/>
     <wire from="(1730,1810)" to="(1740,1810)"/>
     <wire from="(1730,1840)" to="(1750,1840)"/>
     <wire from="(1730,1870)" to="(1760,1870)"/>

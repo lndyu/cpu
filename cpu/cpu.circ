@@ -342,10 +342,6 @@
       <a name="label" val="MEM_WRITE_ADDRESS"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1350,750)" name="Tunnel">
-      <a name="label" val="tohost"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(1370,1000)" name="Splitter">
       <a name="appear" val="center"/>
       <a name="bit1" val="0"/>
@@ -577,6 +573,10 @@
       <a name="label" val="INSTRUCTION"/>
       <a name="width" val="32"/>
     </comp>
+    <comp lib="0" loc="(1650,880)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="clk"/>
+    </comp>
     <comp lib="0" loc="(1660,1160)" name="Tunnel">
       <a name="facing" val="north"/>
       <a name="label" val="last2digits"/>
@@ -660,10 +660,6 @@
     <comp lib="0" loc="(1850,1330)" name="Tunnel">
       <a name="label" val="f3_2"/>
     </comp>
-    <comp lib="0" loc="(1850,1370)" name="Constant">
-      <a name="value" val="0x0"/>
-      <a name="width" val="8"/>
-    </comp>
     <comp lib="0" loc="(1850,660)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="PC4"/>
@@ -704,6 +700,10 @@
     <comp lib="0" loc="(190,150)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="PROGRAM_COUNTER"/>
+      <a name="width" val="32"/>
+    </comp>
+    <comp lib="0" loc="(1910,820)" name="Tunnel">
+      <a name="label" val="tohost"/>
       <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1970,1490)" name="Constant">
@@ -1301,7 +1301,7 @@
       <a name="label" val="BrLt"/>
     </comp>
     <comp lib="10" loc="(560,740)" name="imm_gen"/>
-    <comp lib="11" loc="(1310,750)" name="csr"/>
+    <comp lib="11" loc="(1870,820)" name="csr"/>
     <comp lib="2" loc="(1200,490)" name="Multiplexer">
       <a name="enable" val="false"/>
       <a name="width" val="32"/>
@@ -1430,7 +1430,6 @@
     <wire from="(130,490)" to="(130,510)"/>
     <wire from="(130,510)" to="(150,510)"/>
     <wire from="(1310,550)" to="(1320,550)"/>
-    <wire from="(1310,750)" to="(1350,750)"/>
     <wire from="(1320,190)" to="(1320,220)"/>
     <wire from="(1320,520)" to="(1320,550)"/>
     <wire from="(1320,520)" to="(1330,520)"/>
@@ -1507,6 +1506,7 @@
     <wire from="(1850,660)" to="(1880,660)"/>
     <wire from="(1870,580)" to="(1880,580)"/>
     <wire from="(1870,620)" to="(1980,620)"/>
+    <wire from="(1870,820)" to="(1910,820)"/>
     <wire from="(1880,580)" to="(1880,610)"/>
     <wire from="(1880,610)" to="(1980,610)"/>
     <wire from="(1880,630)" to="(1880,660)"/>
