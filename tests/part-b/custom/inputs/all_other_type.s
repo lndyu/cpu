@@ -1,2 +1,2 @@
-jal ra 4
-jalr ra x0 4
+lui x2 5
+auipc x1 5

@@ -11,6 +11,6 @@ addi x5 x0 5
 addi x1 x0 -3
 addi x2 x0 -4
 bltu x1 x2 8
-addi x5 x0 5
-bgeu x2 x1 8
+beq x0 x0 8
+bgeu x2 x1 -4
 addi x5 x0 5
