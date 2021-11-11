@@ -8,3 +8,9 @@ sb t1 2(sp)
 lb s1 2(sp)
 sb t1 3(sp) 
 lb x4 3(sp)
+addi sp sp 1
+addi x1 x0 15
+sw x1 0(sp)
+lw x3 0(sp)
+sh x1 0(sp)
+lh x3 0(sp)
