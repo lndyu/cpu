@@ -1,5 +1,7 @@
 # CS61CPU
 
+Link to project: https://inst.eecs.berkeley.edu/~cs61c/fa21/projects/proj3/
+
 Look ma, I made a CPU! Here's what I did:
 
 - I started by creating an Arithmetic Logic Unit, which takes 2 number inputs and, using a switch input, performs a specific calculation and outputs it. 
